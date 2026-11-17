@@ -1,0 +1,32 @@
+# Software Information
+display_name = "NEC - PC-98 (np2S5 twmb)"
+authors = "Neko Project II kai contributors"
+supported_extensions = "d88|88d|d98|98d|fdi|xdf|hdm|dup|2hd|tfd|nfd|hd4|hd5|hd9|fdd|h01|hdb|ddb|dd6|dcp|dcu|flp|img|ima|bin|fim|thd|nhd|hdi|vhd|slh|hdn|cmd"
+corename = "np2S5 twmb"
+license = "MIT"
+permissions = ""
+display_version = "rev.22"
+categories = "Emulator"
+
+# Hardware Information
+manufacturer = "NEC"
+systemname = "PC-98"
+systemid = "pc98"
+
+# Libretro Features
+database = "NEC - PC-98"
+supports_no_game = "false"
+needs_fullpath = "true"
+load_subsystem = "false"
+hw_render = "false"
+savestate = "true"
+savestate_features = "basic"
+
+# Firmware / BIOS
+firmware_count = 1
+firmware0_desc = "'np2s5_twmb' folder (font.bmp and BIOS files)"
+firmware0_path = "np2s5_twmb"
+firmware0_opt = "true"
+notes = "Put font.bmp and any PC-98 BIOS files in system/np2s5_twmb."
+
+description = "np2S5 twmb, a PC-98 emulator based on Neko Project II kai, built as a PS5 libretro core."

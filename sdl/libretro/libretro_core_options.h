@@ -850,7 +850,7 @@ struct retro_core_option_definition option_defs_us[] = {
       {"R-stick", NULL},
       {NULL, NULL},
     },
-    "R-stick"
+    "L-stick"
   },
   {
     "np2kai_stick2mouse_shift",
@@ -882,7 +882,7 @@ struct retro_core_option_definition option_defs_us[] = {
       {"Keypad Fighting", NULL},
       {NULL, NULL},
     },
-    "OFF"
+    "Arrows"
   },
   {
     "np2kai_joynp2menu",
@@ -1735,7 +1735,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       {"R-stick", NULL},
       {NULL, NULL},
     },
-    "R-stick"
+    "L-stick"
   },
   {
     "np2kai_stick2mouse_shift",
@@ -1767,7 +1767,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       {"Keypad Fighting", NULL},
       {NULL, NULL},
     },
-    "OFF"
+    "Arrows"
   },
   {
     "np2kai_joynp2menu",

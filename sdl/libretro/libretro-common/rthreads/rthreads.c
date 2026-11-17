@@ -55,7 +55,7 @@
 #include <time.h>
 #endif
 
-#if defined(VITA) || defined(BSD) || defined(ORBIS)
+#if defined(VITA) || defined(BSD) || defined(ORBIS) || defined(__PS5__)
 #include <sys/time.h>
 #endif
 
@@ -948,3 +948,10 @@ uintptr_t sthread_get_current_thread_id(void)
    return (uintptr_t)pthread_self();
 #endif
 }
+
+#ifdef __PS5__
+/* PS5 native runtime does not export these; no-op stubs (see build notes) */
+int pthread_rwlock_rdlock(pthread_rwlock_t *rwlock) { (void)rwlock; return 0; }
+int pthread_rwlock_wrlock(pthread_rwlock_t *rwlock) { (void)rwlock; return 0; }
+int pthread_rwlock_unlock(pthread_rwlock_t *rwlock) { (void)rwlock; return 0; }
+#endif

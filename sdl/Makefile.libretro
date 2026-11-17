@@ -886,7 +886,7 @@ CFLAGS += $(fpic) $(DEFINES) $(C_VER) $(ENDIANNESS_DEFINES)
 CXXFLAGS += $(fpic) $(DEFINES) $(CXX_VER) $(ENDIANNESS_DEFINES)
 LDFLAGS += $(fpic)
 ifeq ($(HAS_GCC), 1)
-	LDFLAGS += -lm -lpthread -v
+	LDFLAGS += -lpthread -lkernel_web -lSceLibcInternal -lScePosixForWebKit -lc_stub_weak -lkernel_stub_weak -l:crtendS.o -l:crtn.o
 endif
 
 OBJOUT = -o

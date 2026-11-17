@@ -28,7 +28,7 @@ extern "C" {
 
 struct retro_core_option_definition option_defs_us[] = {
    {
-      "np2kai_drive",
+      "np2s5_twmb_drive",
       "Swap Disks on Drive",
       NULL,
       {
@@ -39,7 +39,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "FDD2"
    },
    {
-      "np2kai_keyboard",
+      "np2s5_twmb_keyboard",
       "Keyboard (Restart)",
       "Japanese or US keyboard type.",
       {
@@ -50,7 +50,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "Ja"
    },
    {
-      "np2kai_keyrepeat",
+      "np2s5_twmb_keyrepeat",
       "Key-repeat",
       "Continue press key, key-repeat.",
       {
@@ -61,7 +61,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "OFF"
    },
    {
-      "np2kai_keyrepeat_delay",
+      "np2s5_twmb_keyrepeat_delay",
       "Key-repeat delay",
       "Key-repeat start after delay.",
       {
@@ -73,7 +73,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "500ms"
    },
    {
-      "np2kai_keyrepeat_interval",
+      "np2s5_twmb_keyrepeat_interval",
       "Key-repeat interval",
       "Key-repeat interval.",
       {
@@ -85,7 +85,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "50ms"
    },
    {
-      "np2kai_model",
+      "np2s5_twmb_model",
       "PC Model (Restart)",
       NULL,
       {
@@ -98,7 +98,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "PC-9801VX"
    },
    {
-      "np2kai_clk_base",
+      "np2s5_twmb_clk_base",
       "CPU Base Clock (Restart)",
       NULL,
       {
@@ -109,7 +109,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "2.4576 MHz"
    },
    {
-      "np2kai_cpu_feature",
+      "np2s5_twmb_cpu_feature",
       "CPU Feature (Restart)",
       NULL,
       {
@@ -134,7 +134,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "Intel 80386"
    },
    {
-      "np2kai_clk_mult",
+      "np2s5_twmb_clk_mult",
       "CPU Clock Multiplier (Restart)",
       "Higher values require a fast machine. Can make some games run too fast.",
       {
@@ -163,7 +163,7 @@ struct retro_core_option_definition option_defs_us[] = {
    },
 #if defined(SUPPORT_ASYNC_CPU)
    {
-      "np2kai_async_cpu",
+      "np2s5_twmb_async_cpu",
       "Async CPU(experimental) (Restart)",
       NULL,
       {
@@ -175,7 +175,7 @@ struct retro_core_option_definition option_defs_us[] = {
    },
 #endif
    {
-      "np2kai_ExMemory",
+      "np2s5_twmb_ExMemory",
       "RAM Size (Restart)",
       "Amount of memory the virtual machine can use. Save states size will grow accordingly.",
       {
@@ -198,7 +198,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "3"
    },
    {
-      "np2kai_FastMC",
+      "np2s5_twmb_FastMC",
       "Fast memcheck",
       "Do a faster memory checking at startup.",
       {
@@ -209,7 +209,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "OFF"
    },
    {
-      "np2kai_uselasthddmount",
+      "np2s5_twmb_uselasthddmount",
       "Use last HDD mount",
       "Last HDD mount at core start.",
       {
@@ -221,7 +221,7 @@ struct retro_core_option_definition option_defs_us[] = {
    },
 #if defined(SUPPORT_VIDEOFILTER)
    {
-      "np2kai_vf1",
+      "np2s5_twmb_vf1",
       "Video filter",
       "Video filter setting. (Setting details set in cfg file)",
       {
@@ -235,7 +235,7 @@ struct retro_core_option_definition option_defs_us[] = {
    },
 #endif
    {
-      "np2kai_gdc",
+      "np2s5_twmb_gdc",
       "GDC",
       "Graphic Display Controller model.",
       {
@@ -246,7 +246,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "uPD7220"
    },
    {
-      "np2kai_skipline",
+      "np2s5_twmb_skipline",
       "Skipline Revisions",
       "'Off' will show black scanlines in older games.",
       {
@@ -258,7 +258,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "Full 255 lines"
    },
    {
-      "np2kai_realpal",
+      "np2s5_twmb_realpal",
       "Real Palettes",
       NULL,
       {
@@ -269,7 +269,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "OFF"
    },
    {
-      "np2kai_lcd",
+      "np2s5_twmb_lcd",
       "LCD (old monochrome)",
       NULL,
       {
@@ -280,7 +280,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "OFF"
    },
    {
-      "np2kai_SNDboard",
+      "np2s5_twmb_SNDboard",
       "Sound Board (Restart)",
       NULL,
       {
@@ -321,7 +321,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "PC9801-86"
    },
    {
-      "np2kai_118ROM",
+      "np2s5_twmb_118ROM",
       "enable 118 ROM",
       NULL,
       {
@@ -332,7 +332,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "ON"
    },
    {
-      "np2kai_jast_snd",
+      "np2s5_twmb_jast_snd",
       "JastSound",
       "Enable Jast Sound PCM device.",
       {
@@ -343,7 +343,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "OFF"
    },
    {
-      "np2kai_xroll",
+      "np2s5_twmb_xroll",
       "Swap PageUp/PageDown",
       NULL,
       {
@@ -354,7 +354,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "ON"
    },
    {
-      "np2kai_usefmgen",
+      "np2s5_twmb_usefmgen",
       "Sound Generator",
       "Use 'fmgen' for enhanced sound rendering.",
       {
@@ -365,7 +365,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "fmgen"
    },
    {
-      "np2kai_volume_M",
+      "np2s5_twmb_volume_M",
       "Volume Master",
       NULL,
       {
@@ -395,7 +395,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "100"
    },
    {
-      "np2kai_volume_F",
+      "np2s5_twmb_volume_F",
       "Volume FM",
       NULL,
       {
@@ -437,7 +437,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "64"
    },
    {
-      "np2kai_volume_S",
+      "np2s5_twmb_volume_S",
       "Volume SSG",
       NULL,
       {
@@ -479,7 +479,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "28"
    },
    {
-      "np2kai_volume_A",
+      "np2s5_twmb_volume_A",
       "Volume ADPCM",
       NULL,
       {
@@ -521,7 +521,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "64"
    },
    {
-      "np2kai_volume_P",
+      "np2s5_twmb_volume_P",
       "Volume PCM",
       NULL,
       {
@@ -563,7 +563,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "92"
    },
    {
-      "np2kai_volume_R",
+      "np2s5_twmb_volume_R",
       "Volume RHYTHM",
       NULL,
       {
@@ -605,7 +605,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "64"
    },
    {
-      "np2kai_volume_C",
+      "np2s5_twmb_volume_C",
       "Volume CD-DA",
       NULL,
       {
@@ -647,7 +647,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "128"
    },
    {
-      "np2kai_Seek_Snd",
+      "np2s5_twmb_Seek_Snd",
       "Floppy Seek Sound",
       NULL,
       {
@@ -658,7 +658,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "OFF"
    },
    {
-      "np2kai_Seek_Vol",
+      "np2s5_twmb_Seek_Vol",
       "Volume Floppy Seek",
       NULL,
       {
@@ -700,7 +700,7 @@ struct retro_core_option_definition option_defs_us[] = {
       ""
    },
    {
-      "np2kai_BEEP_vol",
+      "np2s5_twmb_BEEP_vol",
       "Volume Beep",
       NULL,
       {
@@ -714,7 +714,7 @@ struct retro_core_option_definition option_defs_us[] = {
    },
 #if defined(SUPPORT_WAB)
    {
-      "np2kai_CLGD_en",
+      "np2s5_twmb_CLGD_en",
       "Enable WAB (Restart App)",
       NULL,
       {
@@ -725,7 +725,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "OFF"
    },
    {
-      "np2kai_CLGD_type",
+      "np2s5_twmb_CLGD_type",
       "WAB Type",
       NULL,
       {
@@ -758,7 +758,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "PC-9821Xe10,Xa7e,Xb10 built-in"
    },
    {
-      "np2kai_CLGD_fc",
+      "np2s5_twmb_CLGD_fc",
       "Use Fake Hardware Cursor",
       NULL,
       {
@@ -771,7 +771,7 @@ struct retro_core_option_definition option_defs_us[] = {
 #endif	/* defined(SUPPORT_WAB) */
 #if defined(SUPPORT_PEGC)
    {
-      "np2kai_PEGC",
+      "np2s5_twmb_PEGC",
       "Enable PEGC plane mode",
       NULL,
       {
@@ -784,7 +784,7 @@ struct retro_core_option_definition option_defs_us[] = {
 #endif
 #if defined(SUPPORT_PCI)
    {
-      "np2kai_PCI_en",
+      "np2s5_twmb_PCI_en",
       "Enable PCI (Restart App)",
       NULL,
       {
@@ -795,7 +795,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "OFF"
    },
    {
-      "np2kai_PCI_type",
+      "np2s5_twmb_PCI_type",
       "PCMC Type",
       NULL,
       {
@@ -807,7 +807,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "Intel 82434LX"
    },
    {
-      "np2kai_PCI_bios32",
+      "np2s5_twmb_PCI_bios32",
       "Use BIOS32 (not recommended)",
       NULL,
       {
@@ -819,7 +819,7 @@ struct retro_core_option_definition option_defs_us[] = {
    },
 #endif	/* defined(SUPPORT_PCI) */
    {
-      "np2kai_usecdecc",
+      "np2s5_twmb_usecdecc",
       "Use CD-ROM EDC/ECC Emulation",
       NULL,
       {
@@ -830,7 +830,7 @@ struct retro_core_option_definition option_defs_us[] = {
       "ON"
    },
   {
-    "np2kai_inputmouse",
+    "np2s5_twmb_inputmouse",
     "Use mouse or touchpanel to input mouse",
     "",
     {
@@ -841,7 +841,7 @@ struct retro_core_option_definition option_defs_us[] = {
     "ON"
   },
   {
-    "np2kai_stick2mouse",
+    "np2s5_twmb_stick2mouse",
     "S2M(Joypad Analog Stick to Mouse) Mapping",
     "Emulate a mouse on your gamepad's analog stick.",
     {
@@ -853,7 +853,7 @@ struct retro_core_option_definition option_defs_us[] = {
     "L-stick"
   },
   {
-    "np2kai_stick2mouse_shift",
+    "np2s5_twmb_stick2mouse_shift",
     "S2M Click Shift Button Mapping",
     "Stick push shift to left->right click.",
     {
@@ -867,7 +867,7 @@ struct retro_core_option_definition option_defs_us[] = {
     "R1"
   },
   {
-    "np2kai_joymode",
+    "np2s5_twmb_joymode",
     "Joypad D-pad to Mouse/Keyboard/Joypad Mapping",
     "Emulate a keyboard/mouse/joypad on your gamepad. Map keyboard 'Arrows' or 'Keypad' on the D-pad.",
     {
@@ -885,7 +885,7 @@ struct retro_core_option_definition option_defs_us[] = {
     "Arrows"
   },
   {
-    "np2kai_joynp2menu",
+    "np2s5_twmb_joynp2menu",
     "Joypad to NP2 menu Mapping",
     "Select a gamepad button to open NP2 Menu.",
     {
@@ -913,7 +913,7 @@ struct retro_core_option_definition option_defs_us[] = {
 
 struct retro_core_option_definition option_defs_ja[] = {
    {
-      "np2kai_drive",
+      "np2s5_twmb_drive",
       "ディスク入れ替えドライブ",
       NULL,
       {
@@ -924,7 +924,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "FDD2"
    },
    {
-      "np2kai_keyrepeat",
+      "np2s5_twmb_keyrepeat",
       "キーリピート",
       "キーを押し続けると、リピート入力します。",
       {
@@ -935,7 +935,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "OFF"
    },
    {
-      "np2kai_keyrepeat_delay",
+      "np2s5_twmb_keyrepeat_delay",
       "キーリピート 開始遅延",
       "キーリピート開始するまでの遅延時間。",
       {
@@ -947,7 +947,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "500ms"
    },
    {
-      "np2kai_keyrepeat_interval",
+      "np2s5_twmb_keyrepeat_interval",
       "キーリピート 間隔",
       "キーリピートの入力間隔。",
       {
@@ -959,7 +959,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "50ms"
    },
    {
-      "np2kai_keyboard",
+      "np2s5_twmb_keyboard",
       "キーボード形式 (要リスタート)",
       "日本語106、もしくは英語101",
       {
@@ -970,7 +970,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "Ja"
    },
    {
-      "np2kai_model",
+      "np2s5_twmb_model",
       "基本アーキテクチャ (要リスタート)",
       NULL,
       {
@@ -983,7 +983,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "PC-9801VX"
    },
    {
-      "np2kai_clk_base",
+      "np2s5_twmb_clk_base",
       "CPUベースクロック (要リスタート)",
       NULL,
       {
@@ -994,7 +994,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "2.4576 MHz"
    },
    {
-      "np2kai_cpu_feature",
+      "np2s5_twmb_cpu_feature",
       "CPU仕様 (要リスタート)",
       NULL,
       {
@@ -1019,7 +1019,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "Intel 80386"
    },
    {
-      "np2kai_clk_mult",
+      "np2s5_twmb_clk_mult",
       "CPUクロック倍率 (要リスタート)",
       "動作が遅い場合は値を増やしてください。ゲームによってはオーバースピードになる可能性があります。",
       {
@@ -1048,7 +1048,7 @@ struct retro_core_option_definition option_defs_ja[] = {
    },
 #if defined(SUPPORT_ASYNC_CPU)
    {
-      "np2kai_async_cpu",
+      "np2s5_twmb_async_cpu",
       "非同期CPU(experimental) (要リスタート)",
       "動機を待たずにCPUを先行処理させます。（プチフリする）",
       {
@@ -1060,7 +1060,7 @@ struct retro_core_option_definition option_defs_ja[] = {
    },
 #endif
    {
-      "np2kai_ExMemory",
+      "np2s5_twmb_ExMemory",
       "メモリサイズ (要リスタート)",
       "大きなシステムには大きなメモリが必要ですが、ステートセーブのサイズが大きくなります。",
       {
@@ -1083,7 +1083,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "3"
    },
    {
-      "np2kai_FastMC",
+      "np2s5_twmb_FastMC",
       "高速メモリチェック",
       "スタートアップ時のメモリチェックを素早くします。",
       {
@@ -1094,7 +1094,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "OFF"
    },
    {
-      "np2kai_uselasthddmount",
+      "np2s5_twmb_uselasthddmount",
       "前回のHDDマウントを使用",
       "前回のHDDをコア開始時にマウントします。",
       {
@@ -1106,7 +1106,7 @@ struct retro_core_option_definition option_defs_ja[] = {
    },
 #if defined(SUPPORT_VIDEOFILTER)
    {
-      "np2kai_vf1",
+      "np2s5_twmb_vf1",
       "ビデオフィルタ",
       "ビデオフィルタを設定します。（内容はcfgファイルにて設定。）",
       {
@@ -1120,7 +1120,7 @@ struct retro_core_option_definition option_defs_ja[] = {
    },
 #endif
    {
-      "np2kai_gdc",
+      "np2s5_twmb_gdc",
       "GDCタイプ",
       "Graphic Display Controller。",
       {
@@ -1131,7 +1131,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "uPD7220"
    },
    {
-      "np2kai_skipline",
+      "np2s5_twmb_skipline",
       "Skipline Revisions",
       "'Off' will show black scanlines in older games.",
       {
@@ -1143,7 +1143,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "Full 255 lines"
    },
    {
-      "np2kai_realpal",
+      "np2s5_twmb_realpal",
       "擬似多色パレット",
       NULL,
       {
@@ -1154,7 +1154,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "OFF"
    },
    {
-      "np2kai_lcd",
+      "np2s5_twmb_lcd",
       "(古いモノクロ)液晶ディスプレイ",
       NULL,
       {
@@ -1165,7 +1165,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "OFF"
    },
    {
-      "np2kai_SNDboard",
+      "np2s5_twmb_SNDboard",
       "サウンドボード (要リスタート)",
       NULL,
       {
@@ -1206,7 +1206,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "PC9801-86"
    },
    {
-      "np2kai_118ROM",
+      "np2s5_twmb_118ROM",
       "118用サウンドROM",
       NULL,
       {
@@ -1217,7 +1217,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "ON"
    },
    {
-      "np2kai_jast_snd",
+      "np2s5_twmb_jast_snd",
       "JastSound",
       "Enable Jast Sound PCM device.",
       {
@@ -1228,7 +1228,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "OFF"
    },
    {
-      "np2kai_xroll",
+      "np2s5_twmb_xroll",
       "PageUp/PageDownキーを入れ替え",
       NULL,
       {
@@ -1239,7 +1239,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "ON"
    },
    {
-      "np2kai_usefmgen",
+      "np2s5_twmb_usefmgen",
       "音源ジェネレータ （要リスタート）",
       "Defaultは猫OPNA、fmgenはより正確な音質になります。",
       {
@@ -1250,7 +1250,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "fmgen"
    },
    {
-      "np2kai_volume_M",
+      "np2s5_twmb_volume_M",
       "ボリューム： マスター",
       NULL,
       {
@@ -1280,7 +1280,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "100"
    },
    {
-      "np2kai_volume_F",
+      "np2s5_twmb_volume_F",
       "ボリューム： FM",
       NULL,
       {
@@ -1322,7 +1322,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "64"
    },
    {
-      "np2kai_volume_S",
+      "np2s5_twmb_volume_S",
       "ボリューム： SSG",
       NULL,
       {
@@ -1364,7 +1364,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "28"
    },
    {
-      "np2kai_volume_A",
+      "np2s5_twmb_volume_A",
       "ボリューム： ADPCM",
       NULL,
       {
@@ -1406,7 +1406,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "64"
    },
    {
-      "np2kai_volume_P",
+      "np2s5_twmb_volume_P",
       "ボリューム： PCM",
       NULL,
       {
@@ -1448,7 +1448,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "90"
    },
    {
-      "np2kai_volume_R",
+      "np2s5_twmb_volume_R",
       "ボリューム： リズム音源",
       NULL,
       {
@@ -1490,7 +1490,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "64"
    },
    {
-      "np2kai_volume_C",
+      "np2s5_twmb_volume_C",
       "ボリューム： CD-DA",
       NULL,
       {
@@ -1532,7 +1532,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "128"
    },
    {
-      "np2kai_Seek_Snd",
+      "np2s5_twmb_Seek_Snd",
       "フロッピーシーク音",
       NULL,
       {
@@ -1543,7 +1543,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "OFF"
    },
    {
-      "np2kai_Seek_Vol",
+      "np2s5_twmb_Seek_Vol",
       "ボリューム： フロッピーシーク音",
       NULL,
       {
@@ -1585,7 +1585,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       ""
    },
    {
-      "np2kai_BEEP_vol",
+      "np2s5_twmb_BEEP_vol",
       "ボリューム： BEEP",
       NULL,
       {
@@ -1599,7 +1599,7 @@ struct retro_core_option_definition option_defs_ja[] = {
    },
 #if defined(SUPPORT_WAB)
    {
-      "np2kai_CLGD_en",
+      "np2s5_twmb_CLGD_en",
       "WAB有効 (要リスタート)",
       NULL,
       {
@@ -1610,7 +1610,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "OFF"
    },
    {
-      "np2kai_CLGD_type",
+      "np2s5_twmb_CLGD_type",
       "WABタイプ",
       NULL,
       {
@@ -1643,7 +1643,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "PC-9821Xe10,Xa7e,Xb10 built-in"
    },
    {
-      "np2kai_CLGD_fc",
+      "np2s5_twmb_CLGD_fc",
       "WAB時のフェイクカーソル表示",
       NULL,
       {
@@ -1656,7 +1656,7 @@ struct retro_core_option_definition option_defs_ja[] = {
 #endif	/* defined(SUPPORT_WAB) */
 #if defined(SUPPORT_PEGC)
    {
-      "np2kai_PEGC",
+      "np2s5_twmb_PEGC",
       "PEGCプレーンモード",
       NULL,
       {
@@ -1669,7 +1669,7 @@ struct retro_core_option_definition option_defs_ja[] = {
 #endif
 #if defined(SUPPORT_PCI)
    {
-      "np2kai_PCI_en",
+      "np2s5_twmb_PCI_en",
       "PCIバス有効 (要リスタート)",
       NULL,
       {
@@ -1680,7 +1680,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "OFF"
    },
    {
-      "np2kai_PCI_type",
+      "np2s5_twmb_PCI_type",
       "PCMCタイプ",
       NULL,
       {
@@ -1692,7 +1692,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "Intel 82434LX"
    },
    {
-      "np2kai_PCI_bios32",
+      "np2s5_twmb_PCI_bios32",
       "BIOS32使用 (オススメしません)",
       NULL,
       {
@@ -1704,7 +1704,7 @@ struct retro_core_option_definition option_defs_ja[] = {
    },
 #endif	/* defined(SUPPORT_PCI) */
    {
-      "np2kai_usecdecc",
+      "np2s5_twmb_usecdecc",
       "CD-ROM EDC/ECCエミュレーション",
       NULL,
       {
@@ -1715,7 +1715,7 @@ struct retro_core_option_definition option_defs_ja[] = {
       "ON"
    },
   {
-    "np2kai_inputmouse",
+    "np2s5_twmb_inputmouse",
     "マウス操作用にマウスまたはタッチパッドを使用",
     "",
     {
@@ -1726,7 +1726,7 @@ struct retro_core_option_definition option_defs_ja[] = {
     "ON"
   },
   {
-    "np2kai_stick2mouse",
+    "np2s5_twmb_stick2mouse",
     "S2M(ジョイパッド アナログスティック->マウス マッピング",
     "ジョイパッドのアナログスティックをマウスに割り当てる。",
     {
@@ -1738,7 +1738,7 @@ struct retro_core_option_definition option_defs_ja[] = {
     "L-stick"
   },
   {
-    "np2kai_stick2mouse_shift",
+    "np2s5_twmb_stick2mouse_shift",
     "S2M クリックシフトボタン マッピング",
     "スティック押し込みを左→右クリックにシフトするボタンを割り当てる。",
     {
@@ -1752,7 +1752,7 @@ struct retro_core_option_definition option_defs_ja[] = {
     "R1"
   },
   {
-    "np2kai_joymode",
+    "np2s5_twmb_joymode",
     "ジョイパッド デジタルボタン マッピング",
     "ジョイパッドのデジタルボタンをキーボード/マウス/ジョイパッドの操作に割り当てる。",
     {
@@ -1770,7 +1770,7 @@ struct retro_core_option_definition option_defs_ja[] = {
     "Arrows"
   },
   {
-    "np2kai_joynp2menu",
+    "np2s5_twmb_joynp2menu",
     "NP2メニュー表示ボタン設定",
     NULL,
     {

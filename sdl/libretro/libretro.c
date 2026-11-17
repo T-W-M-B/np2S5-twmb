@@ -889,7 +889,7 @@ static void update_variables(void)
 {
    struct retro_variable var = {0};
 
-   var.key = "np2kai_drive";
+   var.key = "np2s5_twmb_drive";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -900,7 +900,7 @@ static void update_variables(void)
          drvno = 1;
    }
 
-   var.key = "np2kai_keyrepeat";
+   var.key = "np2s5_twmb_keyrepeat";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -911,7 +911,7 @@ static void update_variables(void)
          np2cfg.keyrepeat_enable = 0;
    }
 
-   var.key = "np2kai_keyrepeat_delay";
+   var.key = "np2s5_twmb_keyrepeat_delay";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -924,7 +924,7 @@ static void update_variables(void)
          np2cfg.keyrepeat_delay = 500;
    }
 
-   var.key = "np2kai_keyrepeat_interval";
+   var.key = "np2s5_twmb_keyrepeat_interval";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -937,7 +937,7 @@ static void update_variables(void)
          np2cfg.keyrepeat_interval = 50;
    }
 
-   var.key = "np2kai_keyboard";
+   var.key = "np2s5_twmb_keyboard";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -949,7 +949,7 @@ static void update_variables(void)
       init_lrkey_to_pc98();
    }
 
-   var.key = "np2kai_model";
+   var.key = "np2s5_twmb_model";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -962,7 +962,7 @@ static void update_variables(void)
          milstr_ncpy(np2cfg.model, str_VM, 3);
    }
 
-   var.key = "np2kai_clk_base";
+   var.key = "np2s5_twmb_clk_base";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -973,7 +973,7 @@ static void update_variables(void)
          np2cfg.baseclock = 2457600;
    }
 
-   var.key = "np2kai_cpu_feature";
+   var.key = "np2s5_twmb_cpu_feature";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1015,7 +1015,7 @@ static void update_variables(void)
       SetCpuTypeIndex(cpu_index);
    }
 
-   var.key = "np2kai_clk_mult";
+   var.key = "np2s5_twmb_clk_mult";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1024,7 +1024,7 @@ static void update_variables(void)
    }
 
 #if defined(SUPPORT_ASYNC_CPU)
-   var.key = "np2kai_async_cpu";
+   var.key = "np2s5_twmb_async_cpu";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1036,7 +1036,7 @@ static void update_variables(void)
    }
 #endif
 
-   var.key = "np2kai_ExMemory";
+   var.key = "np2s5_twmb_ExMemory";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1044,7 +1044,7 @@ static void update_variables(void)
       np2cfg.EXTMEM = atoi(var.value);
    }
 
-   var.key = "np2kai_uselasthddmount";
+   var.key = "np2s5_twmb_uselasthddmount";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1055,7 +1055,7 @@ static void update_variables(void)
          lr_uselasthddmount = 1;
    }
 
-   var.key = "np2kai_FastMC";
+   var.key = "np2s5_twmb_FastMC";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1067,7 +1067,7 @@ static void update_variables(void)
    }
 
 #if defined(SUPPORT_VIDEOFILTER)
-   var.key = "np2kai_vf1";
+   var.key = "np2s5_twmb_vf1";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1095,7 +1095,7 @@ static void update_variables(void)
    }
 #endif
 
-   var.key = "np2kai_skipline";
+   var.key = "np2s5_twmb_skipline";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1111,7 +1111,7 @@ static void update_variables(void)
       scrndraw_redraw();
    }
 
-   var.key = "np2kai_realpal";
+   var.key = "np2s5_twmb_realpal";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1122,7 +1122,7 @@ static void update_variables(void)
          np2cfg.RASTER = 1;
    }
 
-   var.key = "np2kai_SNDboard";
+   var.key = "np2s5_twmb_SNDboard";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1187,7 +1187,7 @@ static void update_variables(void)
          np2cfg.SOUND_SW = SOUNDID_PC_9801_26K;
    }
 
-   var.key = "np2kai_118ROM";
+   var.key = "np2s5_twmb_118ROM";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1198,7 +1198,7 @@ static void update_variables(void)
          np2cfg.snd118rom = 1;
    }
 
-   var.key = "np2kai_jast_snd";
+   var.key = "np2s5_twmb_jast_snd";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1209,7 +1209,7 @@ static void update_variables(void)
          np2oscfg.jastsnd = 1;
    }
 
-   var.key = "np2kai_usefmgen";
+   var.key = "np2s5_twmb_usefmgen";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1220,7 +1220,7 @@ static void update_variables(void)
          np2cfg.usefmgen = 0x01;
    }
 
-   var.key = "np2kai_xroll";
+   var.key = "np2s5_twmb_xroll";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1231,7 +1231,7 @@ static void update_variables(void)
          np2oscfg.xrollkey = 1;
    }
 
-   var.key = "np2kai_volume_M";
+   var.key = "np2s5_twmb_volume_M";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1239,7 +1239,7 @@ static void update_variables(void)
       np2cfg.vol_master = atoi(var.value);
    }
 
-   var.key = "np2kai_volume_F";
+   var.key = "np2s5_twmb_volume_F";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1253,7 +1253,7 @@ static void update_variables(void)
 #endif	/* defined(SUPPORT_FMGEN) */
    }
 
-   var.key = "np2kai_volume_S";
+   var.key = "np2s5_twmb_volume_S";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1266,7 +1266,7 @@ static void update_variables(void)
 #endif	/* defined(SUPPORT_FMGEN) */
    }
 
-   var.key = "np2kai_volume_A";
+   var.key = "np2s5_twmb_volume_A";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1275,7 +1275,7 @@ static void update_variables(void)
       adpcm_setvol(np2cfg.vol_adpcm);
    }
 
-   var.key = "np2kai_volume_P";
+   var.key = "np2s5_twmb_volume_P";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1288,7 +1288,7 @@ static void update_variables(void)
 #endif	/* defined(SUPPORT_FMGEN) */
    }
 
-   var.key = "np2kai_volume_R";
+   var.key = "np2s5_twmb_volume_R";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1301,7 +1301,7 @@ static void update_variables(void)
 #endif	/* defined(SUPPORT_FMGEN) */
    }
 
-   var.key = "np2kai_volume_C";
+   var.key = "np2s5_twmb_volume_C";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1310,7 +1310,7 @@ static void update_variables(void)
       rhythm_setvol(np2cfg.davolume);
    }
 
-   var.key = "np2kai_Seek_Snd";
+   var.key = "np2s5_twmb_Seek_Snd";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1321,7 +1321,7 @@ static void update_variables(void)
          np2cfg.MOTOR = true;
    }
 
-   var.key = "np2kai_Seek_Vol";
+   var.key = "np2s5_twmb_Seek_Vol";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1329,7 +1329,7 @@ static void update_variables(void)
       np2cfg.MOTORVOL = atoi(var.value);
    }
 
-   var.key = "np2kai_BEEP_vol";
+   var.key = "np2s5_twmb_BEEP_vol";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1339,7 +1339,7 @@ static void update_variables(void)
    }
 
 #if defined(SUPPORT_WAB)
-   var.key = "np2kai_CLGD_en";
+   var.key = "np2s5_twmb_CLGD_en";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1350,7 +1350,7 @@ static void update_variables(void)
          np2cfg.usegd5430 = 0;
    }
 
-   var.key = "np2kai_CLGD_type";
+   var.key = "np2s5_twmb_CLGD_type";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1405,7 +1405,7 @@ static void update_variables(void)
          np2cfg.gd5430type = CIRRUS_98ID_AUTO_XE10_WSN4;
    }
 
-   var.key = "np2kai_CLGD_fc";
+   var.key = "np2s5_twmb_CLGD_fc";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1418,7 +1418,7 @@ static void update_variables(void)
 #endif	/* defined(SUPPORT_WAB) */
 
 #if defined(SUPPORT_PEGC)
-   var.key = "np2kai_PEGC";
+   var.key = "np2s5_twmb_PEGC";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1431,7 +1431,7 @@ static void update_variables(void)
 #endif
 
 #if defined(SUPPORT_PCI)
-   var.key = "np2kai_PCI_en";
+   var.key = "np2s5_twmb_PCI_en";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1442,7 +1442,7 @@ static void update_variables(void)
          np2cfg.usepci = 0;
    }
 
-   var.key = "np2kai_PCI_type";
+   var.key = "np2s5_twmb_PCI_type";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1455,7 +1455,7 @@ static void update_variables(void)
          np2cfg.pci_pcmc = PCI_PCMC_WILDCAT;
    }
 
-   var.key = "np2kai_PCI_bios32";
+   var.key = "np2s5_twmb_PCI_bios32";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1467,7 +1467,7 @@ static void update_variables(void)
    }
 #endif	/* defined(SUPPORT_PCI) */
 
-   var.key = "np2kai_usecdecc";
+   var.key = "np2s5_twmb_usecdecc";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1478,7 +1478,7 @@ static void update_variables(void)
          np2cfg.usecdecc = 0;
    }
 
-  var.key = "np2kai_inputmouse";
+  var.key = "np2s5_twmb_inputmouse";
   var.value = NULL;
   if(environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value) {
     if(strcmp(var.value, "ON") == 0) {
@@ -1488,7 +1488,7 @@ static void update_variables(void)
     }
   }
 
-  var.key = "np2kai_stick2mouse";
+  var.key = "np2s5_twmb_stick2mouse";
   var.value = NULL;
   if(environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value) {
     if(strcmp(var.value, "L-stick") == 0) {
@@ -1502,7 +1502,7 @@ static void update_variables(void)
     }
   }
 
-  var.key = "np2kai_stick2mouse_shift";
+  var.key = "np2s5_twmb_stick2mouse_shift";
   var.value = NULL;
   if(environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value) {
     if(strcmp(var.value, "R1") == 0) {
@@ -1518,7 +1518,7 @@ static void update_variables(void)
     }
   }
 
-  var.key = "np2kai_joymode";
+  var.key = "np2s5_twmb_joymode";
   var.value = NULL;
   if(environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value) {
     int preJoyModeInt = m_tJoyModeInt;
@@ -1561,7 +1561,7 @@ static void update_variables(void)
     }
   }
 
-  var.key = "np2kai_joynp2menu";
+  var.key = "np2s5_twmb_joynp2menu";
   var.value = NULL;
   if(environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value) {
     if(strcmp(var.value, "A") == 0) {
@@ -1605,7 +1605,7 @@ static void update_variables(void)
     }
   }
 
-   var.key = "np2kai_lcd";
+   var.key = "np2s5_twmb_lcd";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1618,7 +1618,7 @@ static void update_variables(void)
       scrndraw_redraw();
    }
 
-   var.key = "np2kai_gdc";
+   var.key = "np2s5_twmb_gdc";
    var.value = NULL;
 
    if (environ_cb(RETRO_ENVIRONMENT_GET_VARIABLE, &var) && var.value)
@@ -1818,9 +1818,9 @@ bool retro_load_game(const struct retro_game_info *game)
    lr_init = 1;
 
 #ifdef _WIN32
-   milstr_ncat(np2path, OEMTEXT("\\np2kai"), MAX_PATH);
+   milstr_ncat(np2path, OEMTEXT("\\np2s5_twmb"), MAX_PATH);
 #else
-   milstr_ncat(np2path, OEMTEXT("/np2kai"), MAX_PATH);
+   milstr_ncat(np2path, OEMTEXT("/np2s5_twmb"), MAX_PATH);
 #endif
 
    OEMSNPRINTF(tmppath, MAX_PATH, OEMTEXT("%s%c"), np2path, OEMPATHDIVC);

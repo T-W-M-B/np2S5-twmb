@@ -62,7 +62,7 @@ else ifneq ($(findstring MINGW,$(shell uname -a)),)
 	system_platform = win
 endif
 
-TARGET_NAME := np2kai
+TARGET_NAME := np2s5_twmb
 
 # Unix
 ifeq ($(platform), unix)

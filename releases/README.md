@@ -35,7 +35,7 @@ Then:
 If you replace the core later, always fully restart RetroArch. A stale copy of the old file fails with
 the same error as a broken one, so compare checksums on both sides after copying.
 
-MD5 of the `.so` in this release: `d6c997d9389f004fa746fbb5596af8c1`
+MD5 of the `.so` in this release: `d5e04d4fbede1a65e51ff3ef547df025`
 
 ## BIOS and system files
 

@@ -1,18 +1,14 @@
 # np2S5 twmb
 
-A PC-98 emulator core for RetroArch on a jailbroken PS5. It is a fork of the libretro build of
-[Neko Project II kai](https://github.com/libretro/NP2kai) (NP2kai), compiled for the PS5 with the
-PS5 Payload SDK.
+np2S5 twmb is a PC-98 emulator core for RetroArch on a jailbroken PS5. It plays PC-98 floppy and hard disk
+images, with FM sound, and is based on Neko Project II kai.
 
 > **Status:** early. The core loads and runs on PS5 RetroArch 1.22.2 and FM sound works. Save states,
 > disk swapping, CD-ROM images, long sessions and other features have **not** been tested yet.
 > See [Known limitations](#known-limitations).
 
-The ready-to-use core and `.info` file are in the [`releases/`](releases/) folder. The rest of this
-repository is the NP2kai source with the PS5 changes applied. NP2kai's own documentation is kept in
-[`README.upstream.md`](README.upstream.md); its build and install instructions do not apply to this fork.
-
-No BIOS, font, sound ROM or game files are included. Use files dumped from hardware you own.
+The ready-to-use core and `.info` file are in the [`releases/`](releases/) folder. No BIOS, font, sound ROM
+or game files are included. Use files dumped from hardware you own.
 
 ## Requirements
 
@@ -135,6 +131,5 @@ Volume sliders are available for master, FM, SSG, ADPCM, PCM, rhythm, CD-DA, flo
 
 ## Credits and license
 
-Based on Neko Project II kai by AZO and contributors, and its libretro port. The PS5 build uses the
-PS5 Payload SDK and the PS5 RetroArch project's native core linker script. NP2kai is released under the
-MIT license; its license file applies to this fork.
+Based on Neko Project II kai by AZO and contributors (MIT license, see `LICENSE`). Built with the PS5
+Payload SDK, using the PS5 RetroArch project's native core linker script.
